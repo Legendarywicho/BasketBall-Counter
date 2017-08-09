@@ -21,17 +21,18 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
             android:layout_height="wrap_content"
-            android:paddingLeft="50dp"
-            android:paddingRight="100dp"
             android:text="Team A" />
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
             android:layout_height="wrap_content"
-
             android:text="Team B" />
 
 
@@ -45,24 +46,24 @@
 
 
         <TextView
-            android:layout_width="70dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:id="@+id/score_forTeam1"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
             android:paddingTop="30dp"
+            android:gravity="center"
             android:text="0"
-            android:textAlignment="center"
             android:textSize="36sp" />
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
             android:id="@+id/score_forTeam2"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
             android:paddingTop="30dp"
             android:text="0"
-            android:textAlignment="center"
             android:textSize="34sp" />
 
 
@@ -71,22 +72,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
 
         <Button
             android:layout_width="105dp"
             android:layout_height="35dp"
-            android:layout_marginLeft="15dp"
             android:layout_marginTop="30dp"
             android:background="#FFB74D"
-            android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:text="+3 POINTS"
             android:onClick="ThreePoints"
-
-
-
-
             />
 
         <Button
@@ -95,26 +91,23 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="30dp"
             android:background="#FFB74D"
-            android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:onClick="Threeshot2"
             android:text="+3 POINTS" />
-
     </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
 
         <Button
             android:layout_width="105dp"
             android:layout_height="35dp"
-            android:layout_marginLeft="15dp"
             android:layout_marginTop="20dp"
             android:background="#FFB74D"
-            android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:text="+2 POINTS"
             android:onClick="TwoPoints"
@@ -131,22 +124,19 @@
             android:onClick="TwoCountesShotForTeam2"
             android:paddingRight="5dp"
             android:text="+2 POINTS" />
-
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
 
         <Button
             android:layout_width="105dp"
             android:layout_height="35dp"
-            android:layout_marginLeft="15dp"
             android:layout_marginTop="20dp"
             android:background="#FFB74D"
-            android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:text="FREE DROW"
             android:onClick="OneShot"
@@ -163,7 +153,6 @@
             android:paddingRight="5dp"
             android:text="FREE DROW"
             android:onClick="OneShotOneKill"
-
             />
 
     </LinearLayout>
