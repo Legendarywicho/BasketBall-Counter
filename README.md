@@ -7,7 +7,6 @@ You can download the app in this Link: https://drive.google.com/open?id=0B09KcMe
 ============
 # Features
 * Record at real time all the scores with just a click 
-* Usefull to keep track of any match
-============
+* Usefull to keep track of any matches in Basketball
 # Developed by 
 Luis Fernando Santiago Ruiz - luissantiagodev@gmail.com
